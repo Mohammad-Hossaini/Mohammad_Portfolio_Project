@@ -1,3 +1,5 @@
+import Navbar from "../components/Navbar";
+import StarBackground from "../components/StarBackground";
 import ThemToggle from "../components/ThemToggle";
 
 function Home() {
@@ -6,9 +8,9 @@ function Home() {
       {/* Them Toggle */}
       <ThemToggle />
       {/* Background Effects */}
-
+      <StarBackground />
       {/* Navbar */}
-
+      <Navbar />
       {/* Main Content */}
 
       {/* Footer */}

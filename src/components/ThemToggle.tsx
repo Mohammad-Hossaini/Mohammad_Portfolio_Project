@@ -1,9 +1,8 @@
 import { Moon, Sun } from "lucide-react";
 import { useState } from "react";
-import cn from "./lib/utils.js";
-
+import cn from "./lib/utils.ts";
 function ThemToggle() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
 
   const toggleThem = () => {
     if (isDarkMode) {
